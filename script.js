@@ -31,6 +31,8 @@ if (noBtnClickCount === 10) {question.innerHTML = "Ricat suka Donita";
 }
 if (noBtnClickCount === 15) {question.innerHTML = "Jojo suka Grace";
 }
-if (noBtnClickCount === 20) {question.innerHTML = "Marpel suka Grace";
+if (noBtnClickCount === 20) {question.innerHTML = "Marpel suka Vanessa";
  }
+if (noBtnClickCount === 200) {question.innerHTML = "***** imut banget "
+}
 });
