@@ -4,6 +4,8 @@ const gif = document.querySelector(".gif");
 const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
+let noBtnClickCount = 0;
+
 yesBtn.addEventListener("click", () => {
 question.innerHTML = "Aaaaa, I like you too";
 gif.src =
@@ -22,4 +24,13 @@ const randomY = Math.floor(Math.random() * maxY);
 
 noBtn.style.left = randomX + "px";
 noBtn.style.top = randomY + "px";
+
+noBtnClickCount++;
+
+if (noBtnClickCount === 10) {question.innerHTML = "Ricat suka Donita"
+}
+if (noBtnClickCount === 15) {question.innerHTML = "Jojo suka Grace"
+}
+if (noBtnClickCount === 20) {question.innerHTML = "Marpel suka Grace"
+ }
 });
