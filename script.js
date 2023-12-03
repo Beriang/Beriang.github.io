@@ -27,10 +27,10 @@ noBtn.style.top = randomY + "px";
 
 noBtnClickCount++;
 
-if (noBtnClickCount === 10) {question.innerHTML = "Ricat suka Donita"
+if (noBtnClickCount === 10) {question.innerHTML = "Ricat suka Donita";
 }
-if (noBtnClickCount === 15) {question.innerHTML = "Jojo suka Grace"
+if (noBtnClickCount === 15) {question.innerHTML = "Jojo suka Grace";
 }
-if (noBtnClickCount === 20) {question.innerHTML = "Marpel suka Grace"
+if (noBtnClickCount === 20) {question.innerHTML = "Marpel suka Grace";
  }
 });
